@@ -1,0 +1,40 @@
+# ignore .git and .cache folders
+.git
+.cache
+
+# ignore ignore files
+.gitignore
+.dockerignore
+
+# envs file
+*.env
+
+# dockerfile
+Dockerfile
+
+# YAML files
+*.yaml
+*.yml
+
+# build directory
+build
+
+# Coverage directory
+coverage
+
+# Dependency directory
+node_modules
+
+# ignore all markdown files (md)
+*.md
+
+# other files
+logs
+.DS_Store
+.idea
+.vscode
+
+# certificates
+*.csr
+*.key
+*.crt
